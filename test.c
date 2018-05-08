@@ -1,9 +1,10 @@
 #include <stdio.h>
+#define fun(x)(printf("%d",x))
 void main()
 {
 int a,b;
 int sum;
-sum=a+b;?/*idd two numbers a and b */
+sum=a+b;?/*add two numbers a and b */
 
 /*Addition*/
 sum=+sum;
@@ -17,7 +18,6 @@ sum=a*b;
 /*Division*/
 sum=a/b;
 
-printf("%d",sum);/*Sum of a and b*/
-
+fun(sum);
 }
 
