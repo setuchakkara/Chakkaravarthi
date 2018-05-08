@@ -3,7 +3,7 @@ void main()
 {
 int a,b;
 int sum;
-sum=a+b;
+sum=a+b;?/*idd two numbers a and b */
 
 
 sum=+sum;
