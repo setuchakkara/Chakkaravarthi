@@ -17,5 +17,7 @@ sum=a*b;
 /*Division*/
 sum=a/b;
 
-printf("%d",sum);
+printf("%d",sum);/*Sum of a and b*/
+
 }
+
