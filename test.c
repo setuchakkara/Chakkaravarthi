@@ -5,9 +5,17 @@ int a,b;
 int sum;
 sum=a+b;
 
+/*Addition*/
 sum=+sum;
 
-sum=-a+b;
+/*Subraction*/
+sum=a-b;
+
+/*Multiplication*/
+sum=a*b;
+
+/*Division*/
+sum=a/b;
 
 printf("%d",sum);
 }
