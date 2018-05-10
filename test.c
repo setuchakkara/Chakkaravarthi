@@ -7,7 +7,8 @@ int a,b;
 int sum,sub,mul,div;
 
 /*Addition*/
-sum=a+b;/*add two numbers a and b */
+sum=a+b;
+  
 /*Subraction*/
 sub=a-b;
 
@@ -17,6 +18,7 @@ mul=a*b;
 /*Division*/
 div=a/b;
 
+/*Call function*/
 fun(sum);
 }
 
