@@ -3,20 +3,19 @@
 void main()
 {
 int a,b;
-int sum;
-sum=a+b;?/*add two numbers a and b */
+
+int sum,sub,mul,div;
 
 /*Addition*/
-sum=+sum;
-
+sum=a+b;/*add two numbers a and b */
 /*Subraction*/
-sum=a-b;
+sub=a-b;
 
 /*Multiplication*/
-sum=a*b;
+mul=a*b;
 
 /*Division*/
-sum=a/b;
+div=a/b;
 
 fun(sum);
 }
