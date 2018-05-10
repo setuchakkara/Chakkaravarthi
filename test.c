@@ -3,8 +3,9 @@
 void main()
 {
 int a,b;
-int sum;
-sum=a+b;?/*add two numbers a and b */
+int sum,fact,i;
+
+sum=a+b;
 
 /*Addition*/
 sum=+sum;
@@ -17,6 +18,10 @@ sum=a*b;
 
 /*Division*/
 sum=a/b;
+
+/*Factorial*/
+for(i=0,fact=1;i<5;i++)
+	fact*=i;
 
 fun(sum);
 }
