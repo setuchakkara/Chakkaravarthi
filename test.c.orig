@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 
-/*Program of Arithmatic Operation*/
-/*Author:Chakkaravarthi*/
+/*Mathamatical operation */
+/*Author-Chakkaravarthi*/
+=======
+/*Program*/
+>>>>>>> e7a79db6dcd716ff1fab0a90d76e8d66d71c6ae9
 
 #include <stdio.h>
 
