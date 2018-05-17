@@ -1,3 +1,5 @@
+/*Program*/
+
 #include <stdio.h>
 
 #define fun(x)(printf("%d",x))
@@ -30,3 +32,4 @@ fun(sum);
 
 }
 
+/*EOL*/
