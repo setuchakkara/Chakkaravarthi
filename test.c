@@ -1,3 +1,7 @@
+
+/*Mathamatical operation */
+/*Author-Chakkaravarthi*/
+
 #include <stdio.h>
 
 #define fun(x)(printf("%d",x))
