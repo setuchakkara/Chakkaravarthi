@@ -1,6 +1,6 @@
-/*Program*/
-/*Mathamatical operation */
-/*Author-Chakkaravarthi*/
+
+/*Program of Arithmatic Operation*/
+/*Author:Chakkaravarthi*/
 
 #include <stdio.h>
 
