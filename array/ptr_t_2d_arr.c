@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-main()
+#include "../test/test.h"
+void fun2(void)
 {
 int *p,i,j,(*ptr)[][10];
 int a[2][10]={{0,1,2,6,4,5,6,7,8,9},

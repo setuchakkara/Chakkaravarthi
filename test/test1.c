@@ -1,7 +1,8 @@
 #include <stdio.h>
-void main()
+#include "test.h"
+void fun3()
 {
-	int arr[5]={8,9,7,3,4};
+	int arr[5]={8,9,7,3,4},a[5];
 	int temp,i,j;
 	/*Sorting Algorithm*/
 	for(i=0;i<4;i++)
