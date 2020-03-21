@@ -10,10 +10,11 @@
 int main(void)
 {
 
-int a=0,b=0,fact=0,i;
+int a=0,b=1,fact=0,i;
 
+int arr[5]={25,12,11,1,5};
 int sum,sub,mul,div;
-
+struct status info;
 /*Addition*/
 sum=a+b;
 
@@ -38,6 +39,11 @@ fun(sum);
 fun1();
 fun2();
 fun3();
+//fun_sort(&arr,(sizeof(arr)/sizeof(int)));
+//for(i=0;i<5;i++)
+//printf("%d ",arr[i]);
+binary_search(&arr,(sizeof(arr)/sizeof(int)),26,&info);
+printf("status=%d,location=%d",info.found,info.location);
 return 0;
 }
 
