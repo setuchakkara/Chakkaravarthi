@@ -8,6 +8,7 @@
 #ifndef TEST_TEST_H_
 #define TEST_TEST_H_
 
+#include <stdio.h>
 struct status
 {
   unsigned char found;
@@ -28,4 +29,6 @@ flag prime_number(int );
 int reverse_number(int );
 void dynamic_1d_array(int );
 void dynamic_2d_array(int ,int );
+char findMissingLetter(char array[], int arrayLength);
+int next_higher(int n) ;
 #endif /* TEST_TEST_H_ */
