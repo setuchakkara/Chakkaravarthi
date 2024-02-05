@@ -12,10 +12,10 @@ create_list(20,2);
 create_list(30,2);
 create_list(40,2);
 create_list(50,2);
-create_list_position(45,1);
+create_list_position(45,6);
 display();
 list_count();
-list_search(35);
+list_search(45);
 
 }
 
@@ -62,7 +62,7 @@ void display()
 }
 
 /* Count no of linked list node*/
-void list_count()
+unsigned int  list_count()
 {
     unsigned int count = 0;
     List temp = start;
@@ -72,6 +72,7 @@ void list_count()
       count++;
     }
     printf("\nnode count = %d \n",count);
+    return count;
 }
 
 /*Serch the element */
@@ -96,25 +97,35 @@ void list_search(unsigned int value)
 void create_list_position(unsigned int value,unsigned int position)
 {
     List temp = (List)malloc(sizeof(struct Node));
-    List prev = start,temp1;
-    unsigned int count =0;
+    List prev = start;
+    unsigned int count =1;
     temp->info = value;
 
-    while(count<(position-1))
+    if(position == 1)   /*insert at begining*/
     {
-        prev = prev->link;
-        count++;
+      temp->link = start;
+      start = temp;
     }
+    else if(list_count()<position) /*insert at end*/
+    {
+      while(prev->link != NULL)
+      prev=prev->link;
+
+      prev->link = temp;
+      temp->link =NULL;
+    }
+    else
+    {
+       while(count<(position-1))
+       {
+          prev = prev->link;
+          count++;
+       }
     
-    temp1 = prev->link;
+    temp->link = prev->link;
     prev->link = temp;
-   if(prev->link != NULL)
-   {
-    temp->link = temp1;
-   }
-   else{
-     temp->link = NULL;
-   }
 
+    }
 
+ 
 }

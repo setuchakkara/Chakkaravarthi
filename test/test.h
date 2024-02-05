@@ -42,7 +42,7 @@ char findMissingLetter(char array[], int arrayLength);
 int next_higher(int n) ;
 void create_list(unsigned int value,unsigned char option);
 void display(void);
-void list_count(void);
+unsigned int  list_count();
 void list_search(unsigned int value);
 void create_list_position(unsigned int value,unsigned int position);
 #endif /* TEST_TEST_H_ */
